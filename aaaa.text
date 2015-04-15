@@ -1,0 +1,88 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>百度一下,就就知道了</title>
+<style type="text/css">
+
+body,div,form,input{font-size:14px;margin:0;padding:0}
+
+a{color:blue}
+
+#top_right{color:blue;font-size:12px;padding:6px 10px;float:right;right:0;top:0}
+#top_right a{font-size:12px}
+
+#main{margin:25px auto 100px auto;padding:0 35px;width:530px}
+#main h1{margin-bottom:4px;text-align:center}
+#main ul{list-style-type:none;padding:0 0 0 45px;width:410px}
+#main ul li{float:left; margin-right:18px}
+#main .search_btn{font-size:12px;height:32px;margin-left:6px;width:95px;}
+#main p{float:left;margin-top:35px;text-align:center;width:520px; }
+#cl{clear:both}
+
+#search_form{clear:both;margin-left:15px;padding-top:4px}
+
+#keyword{
+border-style:solid;
+border-width:1px;
+float:left;
+font-size:18px;
+height:30px;
+line-height:30px;
+text-indent:10px;
+width:408px;
+}
+
+#footer{margin:50px auto;width:600px;}
+#footer p{font-size:12px;margin-bottom:15px;text-align:center}
+#footer p.jr{margin-bottom:5px}
+#footer p a{font-size:12px}
+#footer p.bq{color:blue}
+#footer p.bq a{color:grey}
+
+</style>
+</head>
+<body>
+<div id="top_right">
+<a href="#">搜索设置</a> | <a href="#">登陆</a> <a href="#">注册</a>
+</div>
+<div id="main">
+<h1>
+<a href="#"><img src="http://www.baidu.com/img/baidu_sylogo1.gif"></a></h1>
+<ul>
+<li><a href="#">新闻</a></li>
+<li><a href="#">网页</a></li>
+<li><a href="#">贴吧</a></li>
+<li><a href="#">知道</a></li>
+<li><a href="#">MP3</a></li>
+<li><a href="#">图片</a></li>
+<li><a href="#">视频</a></li>
+<li><a href="#">地图</a></li>
+</ul>
+<form action="#" method="post" id="search_form">
+<input name="" type="text" id="keyword">
+<input name="" type="button" value="百度一下" class="search_btn" >
+</form>
+<p>
+<a href="#">空间</a>
+<a href="#">百科</a>
+<a href="#">hao123</a> | 
+<a href="#">更多</a>
+</p>
+<div id="cl"></div></div>
+
+<div id="footer">
+<p>
+<a href="#">把百度设为主页</a>
+<a href="#">把百度添加到桌面</a>
+</p>
+<p class="jr">
+<a href="#">加入百度推广</a> | <a href="#">搜索风云榜</a> | <a href="#">关于百度</a> | <a href="#">About Baidu</a>
+</p>
+<p class="bq">
+<a href="#">使用百度前必读</a> <a href="#">京ICP证030173号</a>  <img src="http://www.baidu.com/cache/global/img/gs.gif">
+</p>
+</div>
+
+</body>
+</html>
