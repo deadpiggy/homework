@@ -1,88 +1,153 @@
 <!doctype html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
-<title>°Ù¶ÈÒ»ÏÂ,¾Í¾ÍÖªµÀÁË</title>
-<style type="text/css">
+	<meta charset="utf-8">
+	<title>ç™¾åº¦ä¸€ä¸‹å°±çŸ¥é“äº†</title>
+	<style type="text/css">
+		body, div, form, input{
+			font-size: 14px;
+			padding: 0;
+			margin: 0;
+		}
+		
 
-body,div,form,input{font-size:14px;margin:0;padding:0}
+		#top_right{
+			color: black;
+			font-size: 14px;
+			padding: 15, 0, 0, 0;
+			margin:15px;
+			float: right;
+		}
+		#top_right a{
+			color: black;
+			font-size: 14px;
+		}
+		#top_right a.btn {
+			font-weight: bold;
+		}
+		#top_right a.btn:hover{
+			color:blue;
+		}
+		#top_right a.btn1:hover{
+			color: blue;
+		}
+		#top_right form{
+			float: right;
+		}
 
-a{color:blue}
+		#main{
+			margin: 25px auto 100px auto;
+			padding: 0 35px;
+			width: 800px;
+		}
+		#main h1{
+			margin-bottom:0;
+			text-align: center;	
+		}
+		#main h1 img{
+			width: 330px;
+			height: 140px;
+		}
+		.cl {
+			clear: both;
+		}
+		
+		#search_form{
+			clear: both;			
+			width: 780;
+			margin: o, 10px, 0, 10px;
+			padding-top:1px, 1px, 1px, 1px;
+		}
+		#keyword{
+			margin-left: 100px;
+			border-style: solid;
+			border-width: 1px;
+			border-color: #77c;
+			float: left;
+			font-size: 18px;
+			height: 30px;
+			width: 480px;
+		}
+		#main .search_btn{
+			margin-right: 100px;
+			background-color:#0099FF;
+			border:none;
+			cursor:pointer;
+			float:left;
+			font-size:12px;
+			height:32px;
+			line-height:32px;
+			width:100px;
+			color: white;
+		}
 
-#top_right{color:blue;font-size:12px;padding:6px 10px;float:right;right:0;top:0}
-#top_right a{font-size:12px}
-
-#main{margin:25px auto 100px auto;padding:0 35px;width:530px}
-#main h1{margin-bottom:4px;text-align:center}
-#main ul{list-style-type:none;padding:0 0 0 45px;width:410px}
-#main ul li{float:left; margin-right:18px}
-#main .search_btn{font-size:12px;height:32px;margin-left:6px;width:95px;}
-#main p{float:left;margin-top:35px;text-align:center;width:520px; }
-#cl{clear:both}
-
-#search_form{clear:both;margin-left:15px;padding-top:4px}
-
-#keyword{
-border-style:solid;
-border-width:1px;
-float:left;
-font-size:18px;
-height:30px;
-line-height:30px;
-text-indent:10px;
-width:408px;
-}
-
-#footer{margin:50px auto;width:600px;}
-#footer p{font-size:12px;margin-bottom:15px;text-align:center}
-#footer p.jr{margin-bottom:5px}
-#footer p a{font-size:12px}
-#footer p.bq{color:blue}
-#footer p.bq a{color:grey}
-
-</style>
+		#footer{
+			margin: 250px auto;
+			width: 600px;
+		}
+		#footer p{
+			color: grey;
+			font-size: 12px;
+			margin-bottom:15px;
+			text-align: center;
+		}
+		#footer p.jr{
+			margin-bottom: 5px;
+		}
+		#footer p a{
+			font-size: 12px;
+		}
+		#footer p a.btn{
+			color: blue;
+		}
+		#footer p a.btn1{
+			color: grey;
+		}
+		
+	
+	</style>
 </head>
+
 <body>
-<div id="top_right">
-<a href="#">ËÑË÷ÉèÖÃ</a> | <a href="#">µÇÂ½</a> <a href="#">×¢²á</a>
-</div>
-<div id="main">
-<h1>
-<a href="#"><img src="http://www.baidu.com/img/baidu_sylogo1.gif"></a></h1>
-<ul>
-<li><a href="#">ĞÂÎÅ</a></li>
-<li><a href="#">ÍøÒ³</a></li>
-<li><a href="#">Ìù°É</a></li>
-<li><a href="#">ÖªµÀ</a></li>
-<li><a href="#">MP3</a></li>
-<li><a href="#">Í¼Æ¬</a></li>
-<li><a href="#">ÊÓÆµ</a></li>
-<li><a href="#">µØÍ¼</a></li>
-</ul>
-<form action="#" method="post" id="search_form">
-<input name="" type="text" id="keyword">
-<input name="" type="button" value="°Ù¶ÈÒ»ÏÂ" class="search_btn" >
-</form>
-<p>
-<a href="#">¿Õ¼ä</a>
-<a href="#">°Ù¿Æ</a>
-<a href="#">hao123</a> | 
-<a href="#">¸ü¶à</a>
-</p>
-<div id="cl"></div></div>
+	<div id="top_right">
+		<a href="#" class="btn">æ–°é—»</a>&nbsp;
+		<a href="#" class="btn">hao123</a>&nbsp;
+		<a href="#" class="btn">åœ°å›¾</a>&nbsp;
+		<a href="#" class="btn">è§†é¢‘</a>&nbsp;
+		<a href="#" class="btn">è´´å§</a>&nbsp;
+		<a href="#" class="btn1">ç™»é™†</a>&nbsp;
+		<a href="#" class="btn1">è®¾ç½®</a>&nbsp;
+		<a href="#" >æ›´å¤šäº§å“</a>
+	</div>
+	<div class="cl">
+	</div>
+	<div id="main">
+		<h1>
+			<a href="#">
+				<img src="http://www.baidu.com/img/baidu_sylogo1.gif">
+			</a>
+		</h1>
+		<form action="#" method="post" id="search_form">
+			<input name="" type="text" id="keyword">
+			<input name="" type="button" value="ç™¾åº¦ä¸€ä¸‹" class="search_btn">
+		</form>
+		<div class="cl">
+		</div>
+	</div>
 
-<div id="footer">
-<p>
-<a href="#">°Ñ°Ù¶ÈÉèÎªÖ÷Ò³</a>
-<a href="#">°Ñ°Ù¶ÈÌí¼Óµ½×ÀÃæ</a>
-</p>
-<p class="jr">
-<a href="#">¼ÓÈë°Ù¶ÈÍÆ¹ã</a> | <a href="#">ËÑË÷·çÔÆ°ñ</a> | <a href="#">¹ØÓÚ°Ù¶È</a> | <a href="#">About Baidu</a>
-</p>
-<p class="bq">
-<a href="#">Ê¹ÓÃ°Ù¶ÈÇ°±Ø¶Á</a> <a href="#">¾©ICPÖ¤030173ºÅ</a>  <img src="http://www.baidu.com/cache/global/img/gs.gif">
-</p>
-</div>
-
+	<div id="footer">
+		<p>
+			<a href="#" class="btn">æŠŠç™¾åº¦è®¾ä¸ºä¸»é¡µ</a>
+			<a href="#" class="btn">å…³äºç™¾åº¦</a>
+			<a href="#" class="btn">About Baidu</a>
+		</p>
+		<p>
+			Â©2015 Baidu 
+			<a href="#" class="btn1">ä½¿ç”¨ç™¾åº¦å‰å¿…è¯»</a>
+			<a href="#" class="btn1">æ„è§åé¦ˆ</a>
+			äº¬IPCè¯030173å·
+			<img src="http://www.baidu.com/cache/global/img/gs.gif">	
+		</p>
+	</div>
 </body>
 </html>
